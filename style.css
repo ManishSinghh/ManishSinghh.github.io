@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Garamond:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@600&family=Cormorant+Garamond:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@600&family=Cormorant+Garamond:ital,wght@1,500&family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@600&family=Cormorant+Garamond:ital,wght@1,500&family=Kalam&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@600&family=Cormorant+Garamond:ital,wght@1,500&family=Kalam&family=Kaushan+Script&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@600&family=Cormorant+Garamond:ital,wght@1,500&family=Kalam&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(73, 69, 69);
+  font-family: "Satisfy", cursive;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 50px;
+  visibility: calc(0);
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 21px;
+  padding: 20px 0;
+  font-family: "Aboreto", cursive;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(229, 223, 223);
+}
+
+.main {
+  /*background-color: yellow;*/
+
+  width: 1396px;
+  font-family: "Aboreto", cursive;
+  font-family: "Caveat", cursive;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  margin: 146px auto;
+  /*background-color: blueviolet;*/
+  height: 25vw;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(153, 195, 233);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(153, 195, 233);
+  font-family: "Cormorant Garamond", serif;
+}
+.about {
+  font-size: 40px;
+  color: rgb(153, 195, 233);
+}
+.moreabout {
+  font-size: 15px;
+  font-family: "Taviraj", serif;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: rgb(153, 195, 233);
+}
+.buttons {
+  margin: 5px 0px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 51px;
+  color: white;
+  color: rgb(44, 77, 109);
+  font-weight: bold;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 13px;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(180, 205, 227);
+}
+.devPic img {
+  width: 445px;
+  height: 25vw;
+}
+.contactform {
+  padding: 0px 34px;
+  padding-top: 100px;
+  font-family: "Cormorant Garamond", serif;
+}
+.contactform h1 {
+  font-size: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 12px 0;
+  margin-left: 140px;
+}
+.contactform form div {
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin-left: 140px;
+}
+.contactform form div input {
+  width: 176px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 4px 0 0 0;
+  padding: 1px;
+}
+#emailHelp {
+  font-size: 15px;
+  color: rgb(63, 44, 81);
+  margin-left: 0px;
+}
+.form-check-label {
+  margin-left: 10px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 2px 0;
+}
+.social1 img {
+  margin-top: 15px;
+  width: 36px;
+  height: 36px;
+  margin-left: 150px;
+}
+.social2 img {
+  display: flex;
+  margin-top: -40px;
+  width: 35px;
+  height: 35px;
+  margin-left: 200px;
+}
+.social3 img {
+  display: flex;
+  margin-top: -36px;
+  width: 35px;
+  height: 35px;
+  margin-left: 250px;
+}
+.start {
+  font-size: 50px;
+  margin-top: -40px;
+  margin-left: -170px;
+  color: rgb(70, 39, 19);
+}
+.int {
+  margin-left: -165px;
+  font-size: 18px;
+  color: rgb(70, 39, 19);
+}
+.myskills {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: -170px;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+  color: rgb(70, 39, 19);
+}
+.insideskills {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.certificate {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: -170px;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+  color: rgb(70, 39, 19);
+}
+.certi1 {
+  font-size: 20px;
+  margin-left: -165px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(70, 39, 19);
+}
+.first {
+  margin-top: -21px;
+  margin-left: -165px;
+  font-size: 15px;
+  color: rgb(70, 39, 19);
+}
+.desc1 {
+  margin-top: -22px;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.certi2 {
+  margin-left: -165px;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 20px;
+  color: rgb(70, 39, 19);
+}
+.sec {
+  margin-top: -21px;
+  margin-left: -165px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(70, 39, 19);
+}
+.desc2 {
+  margin-top: -22px;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.certi3 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 20px;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.third {
+  margin-top: -21px;
+  margin-left: -165px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(70, 39, 19);
+}
+.desc3 {
+  margin-top: -22px;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.intropic img {
+  margin: 200px 0 0 0;
+}
+
+.project {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: -170px;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+  color: rgb(70, 39, 19);
+}
+.pr1 {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 7px;
+  margin-left: -165px;
+  color: rgb(70, 39, 19);
+}
+.pdesc1 {
+  margin-top: 7px;
+  margin-left: -165px;
+  color: azure;
+  color: rgb(70, 39, 19);
+}
+
+.sidebarGo {
+  transform: translate(-250px, 0px);
+  position: absolute;
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+
+.cross{
+  
+  margin-left: 0px;
+}
+
+@media (max-width: 720px) {
+ 
+  .devPic{
+    display: none;
+  }
+  .start, .int, .myskills, .insideskills, .certificate, .certi, .first, .desc1, .certi2, .sec, .desc2, .certi3, .third, .desc3, .project, .pr1, .pdesc1{
+    margin-top: 200px;
+    margin-left: 10px;
+  }
+}

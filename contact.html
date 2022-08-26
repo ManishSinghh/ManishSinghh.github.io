@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{
+        background-image: url('azure.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Singh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href  ="/">Home</a></li>
+            <li><a href  ="/intro.html">Intro</a></li>
+            <li><a href  ="/contact.html">Contact Me</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="main">
+        <div class="hamburger">
+          <img class = "ham" src="ham.png" >
+          <img class = "cross" src="cross.png" >
+        </div>
+         <div class="contactform">
+          <h1>Contact for work</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email and phone number with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="clientphone" class="form-label">Phone Number</label>
+                  <input type="phone" class="form-control" id="clientphone">
+                </div>
+                <div class="mb-3 " id = "form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I want to work with you</label> 
+                </div>
+                
+                <a href="emailto: manishthapliyal2001@gmail.com" ><button type="submit" class="btn btn-sm"  onclick= "document.location =  'mailto:manishthapliyal2001@gmail.com'">Submit</button></a>
+              </form>
+              <div class="social1">
+              <a href="https://instagram.com/manishisinnocent?igshid=YmMyMTA2M2Y=" target="_blank"><img src="insta.png" alt="instagram"> </a>
+              </div>
+              <div class="social2">
+                <a href="https://github.com/ManishSinghh/ManishSinghh" target="_blank"><img src="git.png" alt="github"> </a>
+                </div>
+                <div class="social3">
+                <a href="https://www.linkedin.com/in/manishsingh51/" target="_blank"><img src="linkedin.png" alt="linkedin"> </a>
+                </div>
+         </div>
+        </div>
+        <script src="script.js"></script>   
+  </body>
+</html>
